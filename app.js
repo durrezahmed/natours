@@ -9,7 +9,9 @@ const app = express();
 // 1) MIDDLEWARES
 
 // morgan middleware
-app.use(morgan('dev'));
+if (process.env.NODE_ENV === 'development') {
+  app.use(morgan('dev'));
+}
 
 // middleware to get access to the req.body
 app.use(express.json());
