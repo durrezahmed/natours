@@ -1,4 +1,5 @@
 const dotenv = require('dotenv');
+
 dotenv.config({ path: './config.env' });
 
 // the app file should be always after the env variable are read
