@@ -19,6 +19,12 @@
       {
         "endOfLine": "auto"
       }
+    ],
+    "import/no-useless-path-segments": [
+      "error",
+      {
+        "noUselessIndex": true
+      }
     ]
   }
 }
