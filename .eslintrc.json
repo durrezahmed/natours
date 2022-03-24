@@ -23,7 +23,14 @@
     "import/no-useless-path-segments": [
       "error",
       {
-        "noUselessIndex": true
+        "noUselessIndex": false
+      }
+    ],
+    "node/no-unsupported-features/es-syntax": [
+      "error",
+      {
+        "version": "16.13.2",
+        "ignores": []
       }
     ]
   }
