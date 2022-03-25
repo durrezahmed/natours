@@ -6,8 +6,9 @@ const router = express.Router();
 // param middleware for checking the ID
 // router.param('id', tourController.checkID);
 
-// middleware for post request for checking the body
-// .post(middleware_name, createTour);
+router
+  .route('/top-5-cheap')
+  .get(tourController.aliasTopTours, tourController.getAllTours);
 
 router
   .route('/')
