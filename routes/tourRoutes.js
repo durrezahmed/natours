@@ -10,6 +10,7 @@ const router = express.Router();
 // POST /tour/123cdf5/reviews
 // GET /tour/123cdf5/reviews
 
+// reviewRouter redirection
 router.use('/:tourId/reviews', reviewRouter);
 
 router
