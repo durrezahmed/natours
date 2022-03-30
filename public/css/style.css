@@ -608,6 +608,15 @@ body {
   -ms-scroll-snap-type: x mandatory;
   scroll-snap-type: x mandatory;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+.reviews::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.reviews {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 .reviews__card {
   width: 30rem;
   padding: 4rem;
