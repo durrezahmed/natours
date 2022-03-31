@@ -15,3 +15,5 @@ config.env
 .sass-cache
 
 mapbox.js
+
+.cache
