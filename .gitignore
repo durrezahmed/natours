@@ -13,3 +13,5 @@ config.env
 
 # Ignore SASS config files
 .sass-cache
+
+mapbox.js
